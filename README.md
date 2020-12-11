@@ -95,7 +95,7 @@ mvn install:install-file -Dfile=C:\sqljdbc4-4.2.jar -DgroupId=com.microsoft.sqls
 mvn install:install-file -Dfile=C:\LDAPConnection.jar -DgroupId=pe.gob.congreso -DartifactId=LDAPConnection -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
 ```
 
-##### Generate .war
+##### Generate .war files
 
 ```bash
 mvn clean package
